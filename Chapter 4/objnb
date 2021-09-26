@@ -1,0 +1,102 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Exercies.ipynb",
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "-DXheoeWHMB4"
+      },
+      "source": [
+        "##**Exercies**\n",
+        "\n",
+        "1. **What Linear Regression training algorithm can you use if you have a training set with millions of features?**\n",
+        "\n",
+        "\n",
+        "\n",
+        "We could use  Gradient Desecnt or Normal Equation\n",
+        "\n",
+        "\n",
+        "2. **Suppose the features in your training set have very different scales. What algorithms might suffer from this, and how? What can you do about it?**\n",
+        "\n",
+        "Gradient Desecnt suffer from that and we could alwalys scale our feature to elimnate it \n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "3.  **Can Gradient Descent get stuck in a local minimum when training a Logistic Regression model?**\n",
+        "\n",
+        "No , It can't because sigmoid is convex\n",
+        "\n",
+        "4. **Do all Gradient Descent algorithms lead to the same model provided you let them run long enough?**\n",
+        "\n",
+        "No it don't depends on other paramter like learing rate\n",
+        "\n",
+        "\n",
+        "5. **Suppose you use Batch Gradient Descent and you plot the validation error at every epoch. If you notice that the validation error consistently goes up, what is likely going on? How can you fix this?**\n",
+        "\n",
+        "the loss going up because the model learning wrong ( going to make overfitting) and the model doesn't reach the golbal minimum  or close , we can use differnt things  like callbacks earlystopping  or change the parameter like learning rate\n",
+        "\n",
+        "6. **Is it a good idea to stop Mini-batch Gradient Descent immediately when the validation error goes up?**\n",
+        "\n",
+        "No it is not because it could reach its best after time\n",
+        "\n",
+        "\n",
+        "7. **Which Gradient Descent Algorithm will reach the vicinity of the optimal solution the fastest? Which will actually converge? How can you make the others converge as well?**\n",
+        "\n",
+        "The Stochastic Gradient Descent will reach the fastest since you are using one random training data at each iteration. However, the Batch Gradient Descent is the only one to actually converge. You cannot make the others converge; they will only approach close to the global minimum.\n",
+        "\n",
+        "\n",
+        "8. **Suppose you are using Polynomial Regression. You plot the learning curves and you notice that there is a large gap between the training error and the validation error. What is happening? What are three ways to solve this?**\n",
+        "\n",
+        "If the gap exists between the training and the validation error, the model is overfitting the data. To avoid overfitting the data, you can do one of three things: 1. train more data, 2. regularize the model, and 3. reduce the complexity of the model (degree of freedom)\n",
+        "\n",
+        "\n",
+        "9. **Suppose you are using Ridge Regression and you notice that the training error and the validation error are almost equal and fairly high. Would you say that the model suffers from high bias or high variance? Should you increase the regularization hyperparameter alpha or reduce it?**\n",
+        "\n",
+        "The model suffers from high bias, because the errors are both high, indicating wrong assumptions and therefore underfitting. In order to reduce high bias, you have to decrease alpha.\n",
+        "\n",
+        "\n",
+        "10. **Why would you want to use:**\n",
+        "\n",
+        "**Ridge Regression instead of plain Linear Regression?**\n",
+        "\n",
+        "Ridge Regression regularizes the Linear Regression, to avoid overfitting.\n",
+        "\n",
+        "**Lasso instead of Ridge Regression?**\n",
+        "\n",
+        "Lasso, which uses L1 norm regularization, automatically eliminates the weights of the least important features and therefore performs feature selection.\n",
+        "\n",
+        "**Elastic Net instead of Lasso?**\n",
+        "\n",
+        "Elastic Net is preferred over Lasso if there are lots of features or lots of strongly correlated features.\n",
+        "\n",
+        "\n",
+        "11. **Suppose you want to classify pictures as outdoor/indoor and daytime/nighttime.Should you implement two Logistic Regression classifiers or one Softmax Regression classifier**\n",
+        "\n",
+        "it is better to use  logistic regression becuase we classify between differnt things\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    }
+  ]
+}
