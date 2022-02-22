@@ -35,6 +35,6 @@ We provide links for the available notebooks:
 - [Decision Trees](https://github.com/MAHMOUDRR707/Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-TensorFlow-Concept-s-Tools-and-Techniques/tree/master/Chapter%206)
 - [Ensemble Learning and Random Forests](https://github.com/MAHMOUDRR707/Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-TensorFlow-Concept-s-Tools-and-Techniques/tree/master/Chapter%207)
 - [Dimensionality Reduction](https://github.com/MAHMOUDRR707/Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-TensorFlow-Concept-s-Tools-and-Techniques/tree/master/Chapter%208)
-- [Unsupervised Learning Techniques](Cahpter 9/09_unsupervised_learning.ipynb)
+- [Unsupervised Learning Techniques](https://github.com/MAHMOUDRR707/Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-TensorFlow-Concept-s-Tools-and-Techniques/tree/master/Cahpter%209)
 
 ---
