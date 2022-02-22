@@ -6,7 +6,7 @@ Exercises of the book and their datasets
 A series of Jupyter notebooks that walk you through the fundamentals of Machine Learning and Deep Learning in Python using Scikit-Learn, Keras and TensorFlow 2.
 # Hands-on ML with Scikit-Learn, Keras & TF by Aurelien Geron
 
-<div style="text-align:center"><img style="width:100%" src="static/imgs/book_cover.png"></div>
+![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fsoundcloud.com%2Fuser-705478758%2Fpdf-hands-on-machine-learning-with-scikit-learn-keras-and-tensorflow%2Flikes&psig=AOvVaw1TUihbFtG9iUuCKRW4Dtke&ust=1645581027600000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPDsx8GZkvYCFQAAAAAdAAAAABAJ)
 
 This repo is home to notes & code that accompanies Part 1 of Aurelien Geron's "Hands-on ML with Scikit-Learn, Keras & TF" book. The book provides a comprehensive overview of data science, machine learning (with `scikit-learn`), and deep learning (with `tensorflow`).
 
