@@ -36,5 +36,5 @@ We provide links for the available notebooks:
 - [Ensemble Learning and Random Forests](https://github.com/MAHMOUDRR707/Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-TensorFlow-Concept-s-Tools-and-Techniques/tree/master/Chapter%207)
 - [Dimensionality Reduction](https://github.com/MAHMOUDRR707/Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-TensorFlow-Concept-s-Tools-and-Techniques/tree/master/Chapter%208)
 - [Unsupervised Learning Techniques](https://github.com/MAHMOUDRR707/Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-TensorFlow-Concept-s-Tools-and-Techniques/tree/master/Cahpter%209)
-
+- [Introduction of AI with keras](https://github.com/MAHMOUDRR707/Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-TensorFlow-Concept-s-Tools-and-Techniques/tree/master/Chapter%2010)
 ---
